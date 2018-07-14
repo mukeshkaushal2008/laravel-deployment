@@ -36,21 +36,21 @@ return array(
 
     'connections' => array(
 
-        'development' => array(
+         'development' => array(
             'scheme'    => 'ftp',
-            'host'      => 'yourdevserver.com',
-            'user'      => 'user',
-            'pass'      => 'myawesomepass',
-            'path'      => '/path/to/server/',
+            'host'      => '127.0.0.1',
+            'user'      => 'laravel',
+            'pass'      => 'laravel@123',
+            'path'      => '/',
             'port'      => 21,
             'passive'   => true
         ),
 
         'production' => array(
             'scheme'    => 'ftp',
-            'host'      => 'yourserver.com',
-            'user'      => 'user',
-            'pass'      => 'myawesomepass',
+             'host'      => '127.0.0.1',
+            'user'      => 'laravel',
+            'pass'      => 'laravel@123',
             'path'      => '/path/to/server/',
             'port'      => 21,
             'passive'   => true
