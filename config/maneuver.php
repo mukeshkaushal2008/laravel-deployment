@@ -51,7 +51,7 @@ return array(
              'host'      => '127.0.0.1',
             'user'      => 'laravel',
             'pass'      => 'laravel@123',
-            'path'      => '/path/to/server/',
+            'path'      => '/',
             'port'      => 21,
             'passive'   => true
         ),
